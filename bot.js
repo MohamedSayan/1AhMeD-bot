@@ -2734,7 +2734,7 @@ client.on('message', async msg => { // eslint-disable-line
 					let index = 0;
 					const embed1 = new Discord.RichEmbed()
 			        .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
-.{videos.map(video2 => `[**.{++index} **] \`.{video2.title}\``).join('\n')}`)
+.{videos.map(video2 => `[.{++index} ] \`.{video2.title}\``).join('\n')}`)
 //by ,. ReBeL ء , ??#4777 'CODES SERVER'
 					.setFooter("3bker Community ©")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
